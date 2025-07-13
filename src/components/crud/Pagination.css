@@ -1,0 +1,18 @@
+.pagination-content button{
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  outline: 1px solid #609797;
+  border: 1px solid #609797;
+}
+
+.pagination-content button:hover{
+  background:#609797;
+  outline: 1px solid #609797;
+  border: 1px solid #609797;
+}
+
+.num-btns {
+  width: 40px;
+  height: 40px;
+}

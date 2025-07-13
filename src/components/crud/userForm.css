@@ -1,0 +1,82 @@
+.form-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #629797;
+    width: 550px;
+    padding: 35px;
+    background: #d7eeee;
+}
+
+.form-labels, .form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    height: 200px;
+    margin-right: 30px;
+    
+}
+
+.form-labels {
+    width: 120px;
+}
+
+.form-labels label,  .form-inputs input, select, option {
+    outline: none;
+    border:  none;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.main-adupdate{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.button-content {
+    display : flex;
+    justify-content:  center;
+    border: 1px solid #629797;
+    padding: 10px;
+    background: #d7eeee;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+.button-content button {
+    margin-right: 20px;
+}
+
+.heading-content {
+  border: 1px solid #629797;
+  background: #d7eeee;
+  padding:10px;
+}
+
+.form-results {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  justify-content: left;
+  margin-left: 30px;
+}
+
+.form-results p {
+  color : rgb(13, 78, 143);
+  margin:0;
+  padding:0;
+  padding-right: 20px;
+  width: 120px;
+  margin-right: 30px;
+}
+
+
+.button-content button{
+  margin-left: 10px;
+  outline: 1px solid #609797;
+  border: 1px solid #609797;
+}
+
+.button-content button:hover{
+  background:#609797;
+  outline: 1px solid #609797;
+  border: 1px solid #609797;
+}

@@ -1,0 +1,15 @@
+
+.arrLi li:nth-child(odd) {
+    background-color: rgba(200, 166, 55, 0.395);
+  }
+
+.arrLi  li:nth-child(even) {
+    background-color: rgba(16, 145, 177, 0.241);
+  }
+
+
+  .numContainer{ 
+    border : 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+  }

@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(27, 53, 53, 0.17);
+}
+
+.mainContent {
+    margin : 10px 10px;
+    border :1pt solid grey;
+    overflow: auto;
+}
+.mainContent div{
+    margin : 15px 15px;
+    border: 1pt solid rgba(128, 128, 128, 0.481);
+}
+.mainContent 
+    .panelHead {
+        padding:0px 10px 0px 10px;
+        font-size: 16px;
+        font-weight:500;
+        border-bottom: 1pt solid rgb(5, 102, 220);;
+}
+
+.footer{
+    height: 19%;
+}
+
+.profile {
+    height : 70%;
+}
+
+.contact {
+    height : 50%;
+    width:50%;
+    float:right;
+}
+
+.fields {
+    width:30%;
+    margin-top:10px;
+    margin-left:10px;
+    padding:10px 10px 1px 10px;
+    font-size: 14px;
+    font-weight:300;
+    background-color: rgba(39, 242, 28, 0.214);
+    display:block;
+    border-bottom: 1pt solid rgb(5, 220, 70);;
+}
